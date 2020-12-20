@@ -1,0 +1,14 @@
+:root{
+    --primary-color:#003476;
+    --secundary-color:#b4d2f7;
+    --header-size:4rem;
+    --font:1.8rem;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+
+/*Este elemento setea el tamaño de fuente del html para que 1rem sea = a 10px*/
+html{font-size:62.5%;}
+header{width:100vw; height:15vh;background-color:var(--primary-color);} /*asignacion de variable osea como se usa*/
+main{width:100vw; height:50vh; font-size:var(--font);}
+h1{font-size:var(--header-size);color:#003476;}
+footer{width:100vw; height:15vh; background-color:var(--secundary-color);}
